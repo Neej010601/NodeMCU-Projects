@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 //Get these define from Blynk IoT site for a platform to control things.
 #define BLYNK_TEMPLATE_ID "TMPLjRl8y-I-"
 #define BLYNK_DEVICE_NAME "Home Automation"
