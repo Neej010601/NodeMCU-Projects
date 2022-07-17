@@ -80,10 +80,10 @@ void setup()
 //Activate blynk and nodeMCU
   Blynk.begin(auth, ssid, password);
 //  Set the pin mode
-  pinMode(13, INPUT);
-  pinMode(14, INPUT);
-  pinMode(15, INPUT);
-  pinMode(13, INPUT);
+  pinMode(13, OUTPUT);
+  pinMode(14, OUTPUT);
+  pinMode(15, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 
 void loop()
